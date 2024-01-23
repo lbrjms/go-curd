@@ -1,0 +1,18 @@
+package web
+
+import "github.com/lbrjms/go-curd/v2/config"
+
+const MODULE = "web"
+
+func init() {
+	config.Register(MODULE, "port", 8081)
+	config.Register(MODULE, "debug", false)
+	config.Register(MODULE, "cors", false)
+	config.Register(MODULE, "gzip", true)
+	config.Register(MODULE, "https", "")
+	config.Register(MODULE, "cert", "")
+	config.Register(MODULE, "key", "")
+	config.Register(MODULE, "hosts", []string{})
+	config.Register(MODULE, "email", "")
+
+}

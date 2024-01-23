@@ -1,0 +1,16 @@
+data: data
+database:
+    debug: false
+    sync: true
+    type: mysql
+    url: root:123qweLWJ@tcp(139.224.249.109:3306)/master?charset=utf8
+web:
+    cert: ""
+    cors: false
+    debug: false
+    email: ""
+    gzip: true
+    hosts: []
+    https: ""
+    key: ""
+    port: 8081
